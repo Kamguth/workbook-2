@@ -2,6 +2,8 @@ package com.pluralsight;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
+
+
 public class HighScoreWinsApp {
     public static void main(String[] args) {
 
@@ -13,8 +15,6 @@ public class HighScoreWinsApp {
         String scoreInput = input.nextLine();
 
         String[] parts = scoreInput.split(Pattern.quote("|"));
-
-
         String[] teams = parts[0].split(":");
 
         String homeTeam = teams[0];
@@ -31,6 +31,7 @@ public class HighScoreWinsApp {
             System.out.println(visitorTeam + " is the winner!");}
         else {
             System.out.println("It's a draw!");}
+
 
 
 
