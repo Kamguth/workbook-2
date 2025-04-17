@@ -5,8 +5,8 @@ public class DoWhileLoop {public static void main(String[] args) {
 
     do {
         System.out.println("I love Java");
-        counter++; // increment inside the loop
-    } while (counter < 5); // correctly placed while
+        counter++;
+    } while (counter < 5);
 }
 }
 
