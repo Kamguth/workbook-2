@@ -13,6 +13,7 @@ CellPhone phone = new CellPhone();
 
         System.out.print("Enter serial number: ");
         phone.setSerialNumber(input.nextInt());
+        input.nextLine();
         System.out.print("Enter model: ");
         phone.setModel(input.nextLine());
         System.out.print("Enter carrier: ");
